@@ -10,7 +10,7 @@ const Clients = () => (
          sm:min-w-[192px] min-w-[120px]`}>
           <img src={client.logo} alt="client_logo" 
            className='sm:w-[192px] w-[100px]
-           object-contain'/>
+           object-contain cursor-pointer'/>
         </div>
       ))}
     </div>
